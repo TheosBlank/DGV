@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1415742009154656}
+  m_IsPrefabParent: 1
+--- !u!1 &1415742009154656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4413048861169768}
+  - component: {fileID: 114998377026914812}
+  m_Layer: 0
+  m_Name: PlayerDataOBJ
+  m_TagString: Player
+  m_Icon: {fileID: 8220585740371884164, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4413048861169768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415742009154656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7.89, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114998377026914812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415742009154656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aebc69583565e34795d4db445997202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightPartnerData: {fileID: 0}
+  leftPartnerData: {fileID: 0}
+  gameManager: {fileID: 0}
+  rHunger:
+    bar: {fileID: 0}
+    imageDisp: {fileID: 0}
+    high: 0
+    low: 0
+    maxVal: 100
+    currVal: 0
+  rHappy:
+    bar: {fileID: 0}
+    imageDisp: {fileID: 0}
+    high: 0
+    low: 0
+    maxVal: 100
+    currVal: 0
+  lHunger:
+    bar: {fileID: 0}
+    imageDisp: {fileID: 0}
+    high: 0
+    low: 0
+    maxVal: 100
+    currVal: 0
+  lHappy:
+    bar: {fileID: 0}
+    imageDisp: {fileID: 0}
+    high: 0
+    low: 0
+    maxVal: 100
+    currVal: 0
+  playerName: 
+  leftID: 
+  rightID: 
+  rightPos: {fileID: 0}
+  leftPos: {fileID: 0}
+  emptyMon: {fileID: 1403309859307520, guid: df9e0728f0e453743b3accc937c6f6c6, type: 2}
+  rightPartner: {fileID: 0}
+  leftPartner: {fileID: 0}
+  hasRightP: 0
+  hasLeftP: 0

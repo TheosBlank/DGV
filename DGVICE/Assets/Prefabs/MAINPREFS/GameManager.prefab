@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1616609988920732}
+  m_IsPrefabParent: 1
+--- !u!1 &1616609988920732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4930840308007164}
+  - component: {fileID: 114226604408758174}
+  - component: {fileID: 114777286412431296}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: -982381405332843317, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4930840308007164
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616609988920732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114226604408758174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616609988920732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08772b8a40379b40a7b7765060e59a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRef: {fileID: 0}
+  crestManager: {fileID: 114777286412431296}
+  crestDisplayAnim: {fileID: 0}
+  allMonsters:
+  - {fileID: 114562004678009248, guid: 2a79e88670a3f8d4189115bac4d4bf7f, type: 2}
+  - {fileID: 114323582283113002, guid: cac1b7d667d35294dbc002d61e9fe364, type: 2}
+  - {fileID: 114261164479228610, guid: 3bc7a8d7c9f61e24eafd8e76af4ae1ee, type: 2}
+  - {fileID: 114682198812812468, guid: bdff6b8718773594f8c59ea1ab95b0a5, type: 2}
+  - {fileID: 114218299113633262, guid: 43f8bc244299d4b4e80fb66776bc654f, type: 2}
+  - {fileID: 114807892980576728, guid: b37227e180f63f24497729d57c06819a, type: 2}
+  - {fileID: 114460342395166838, guid: c7c6718600e34874087eaf3e8e293fe9, type: 2}
+  - {fileID: 114346384832643116, guid: 8673f69f913b6d645993eba7cc6bd970, type: 2}
+  - {fileID: 114999004293429398, guid: 8e23c8040ff09dd48a363232099e3a12, type: 2}
+  - {fileID: 114850191800555798, guid: c91fff9582a86d14d8f9711afe8a9002, type: 2}
+  - {fileID: 114398761204343472, guid: 197f7d31f52d35e4984551ee6167ffa4, type: 2}
+  - {fileID: 114344929129244008, guid: 4ce0f08d7f10e3d429f2456886944525, type: 2}
+  - {fileID: 114145211118648530, guid: 780dbf720f6e068449ca940748e47866, type: 2}
+  - {fileID: 114947364509886882, guid: 9392b85eb4519af4a94ca8c84653ccf0, type: 2}
+  - {fileID: 114184846938469544, guid: 3770a2f2769dbc2499a20a134d80796e, type: 2}
+  - {fileID: 114816276293635588, guid: 200c41d5e4e5efc4db77d33b21a01f3c, type: 2}
+  - {fileID: 114925404493901550, guid: e780bc82f834c94498964990b536a05e, type: 2}
+  - {fileID: 114620571209496744, guid: ca7353565bb5bd5498ee4220fe143d9c, type: 2}
+  - {fileID: 114258833208071776, guid: 79accde775d162e459e51084b51c3d36, type: 2}
+  - {fileID: 114260932822693426, guid: e2443acc730fc0c489f5d6a641f4a75e, type: 2}
+  - {fileID: 114742887461372238, guid: 875f833a83faa2b4d903ef2cce4bd67f, type: 2}
+  displayOpen: 0
+  playerName: 
+  MainChart: {fileID: 0}
+  nameInputField: {fileID: 0}
+  nameSaveButton: {fileID: 0}
+  crestDisplayOpener: {fileID: 0}
+  crestDisplayCloser: {fileID: 0}
+  textNameDisplayer: {fileID: 0}
+  rPartner: {fileID: 0}
+  lPartner: {fileID: 0}
+--- !u!114 &114777286412431296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616609988920732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 682d2bf85f0226442a6d044d5a390293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 114226604408758174}
+  player: {fileID: 0}
+  dpadDisplay: {fileID: 0}
+  dpadSprite:
+  - {fileID: 21300008, guid: d650495ce5a94944d9c8174fc7cfd0ea, type: 3}
+  - {fileID: 21300000, guid: 51af67a3421c7984facc0449fc639424, type: 3}
+  - {fileID: 21300000, guid: 2809d91fd7d3dce49bbb715b6ef6ee5d, type: 3}
+  - {fileID: 21300000, guid: a43fe3dd6023c6941ab295cf26b807c3, type: 3}
+  - {fileID: 21300000, guid: 10664021dadd5854ab3088ece78fcaa3, type: 3}
+  - {fileID: 21300006, guid: a640425646e3ad54b8b9b991672edcec, type: 3}
+  - {fileID: 21300010, guid: ffc907ac2a761d24081563e9bc91c4d6, type: 3}
+  - {fileID: 21300008, guid: 1abd5015cca1dcd4086f432278366ec8, type: 3}
+  - {fileID: 21300002, guid: 2d29be008f1cf1d4f85454f0c6d916f6, type: 3}
+  explorers:
+  - Courage
+  - Sincerity
+  diplomats:
+  - Friendship
+  - Hope
+  - Light
+  sentinals:
+  - Love
+  - Kindness
+  - Reliability
+  analysts:
+  - Knowledge
+  extrover: 0
+  introvert: 0
+  intuitive: 0
+  sensing: 0
+  thinking: 0
+  feeling: 0
+  perceiving: 0
+  judging: 0
+  mainCrest: 
+  secondaryCrest: 
+  _1stLetter: 
+  _2ndLetter: 
+  _3rdLetter: 
+  _4thLetter: 
